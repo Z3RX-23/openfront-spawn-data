@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OpenFront spawn data</title>
+<style>
+  body{font:16px/1.5 system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;color:#1b2330}
+  code{background:#eef1f6;padding:1px 5px;border-radius:4px}
+  table{border-collapse:collapse;width:100%}td,th{padding:4px 8px;border-bottom:1px solid #dde3ec;text-align:left}
+</style>
+</head>
+<body>
+<h1>OpenFront spawn data</h1>
+<p>Contagens agregadas de spawns e vitórias por zona do mapa, calculadas a partir da API pública do OpenFront.
+Um ficheiro por mapa em <code>data/&lt;mapa&gt;.json</code>, usado pela extensão <em>OpenFront Spawn Heatmap</em>.
+Sem nomes de jogadores.</p>
+<table id="t"><thead><tr><th>Mapa</th><th>FFA</th><th>Equipas</th></tr></thead><tbody></tbody></table>
+<p id="g" style="color:#667"></p>
+<script>
+fetch("data/index.json").then(r => r.json()).then(d => {
+  const rows = Object.entries(d.maps).sort((a, b) =>
+    ((b[1].games.ffa||0)+(b[1].games.team||0)) - ((a[1].games.ffa||0)+(a[1].games.team||0)));
+  const tb = document.querySelector("#t tbody");
+  rows.forEach(([k, m]) => {
+    const tr = document.createElement("tr");
+    [m.name, m.games.ffa || 0, m.games.team || 0].forEach(v => {
+      const td = document.createElement("td"); td.textContent = v; tr.appendChild(td);
+    });
+    tb.appendChild(tr);
+  });
+  document.getElementById("g").textContent = "Atualizado: " + d.generated;
+}).catch(() => { document.getElementById("g").textContent = "Ainda sem dados (a primeira recolha ainda não correu)."; });
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+name: collect-spawns
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # de 6 em 6 horas (hora UTC)
+  workflow_dispatch:           # permite correr manualmente no separador Actions
+
+permissions:
+  contents: write              # para guardar os ficheiros de dados no repositorio
+
+concurrency:
+  group: collect-spawns        # nunca duas corridas ao mesmo tempo
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Recolher jogos novos
+        run: >
+          python collector/collect.py --incremental --mode both
+          --max-games 2000 --delay 2
+          --out-dir docs/data --state state.json
+
+      - name: Guardar dados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data state.json
+          if git diff --cached --quiet; then
+            echo "Sem alteracoes."
+          else
+            git commit -m "data: update spawn stats"
+            git pull --rebase --autostash
+            git push
+          fi

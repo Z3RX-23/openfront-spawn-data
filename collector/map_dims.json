@@ -1,0 +1,1498 @@
+{
+ "achiran": {
+  "name": "Achiran",
+  "normal": [
+   2000,
+   1700
+  ],
+  "compact": [
+   1000,
+   850
+  ]
+ },
+ "aegean": {
+  "name": "Aegean",
+  "normal": [
+   1700,
+   2000
+  ],
+  "compact": [
+   850,
+   1000
+  ]
+ },
+ "africa": {
+  "name": "Africa",
+  "normal": [
+   1948,
+   2032
+  ],
+  "compact": [
+   974,
+   1016
+  ]
+ },
+ "alps": {
+  "name": "Alps",
+  "normal": [
+   2000,
+   1836
+  ],
+  "compact": [
+   1000,
+   918
+  ]
+ },
+ "amazonriver": {
+  "name": "Amazon River",
+  "normal": [
+   5536,
+   276
+  ],
+  "compact": [
+   2768,
+   138
+  ]
+ },
+ "antarctica": {
+  "name": "Antarctica",
+  "normal": [
+   2212,
+   2212
+  ],
+  "compact": [
+   1106,
+   1106
+  ]
+ },
+ "archipelagosea": {
+  "name": "ArchipelagoSea",
+  "normal": [
+   3100,
+   1508
+  ],
+  "compact": [
+   1550,
+   754
+  ]
+ },
+ "arctic": {
+  "name": "Arctic",
+  "normal": [
+   1828,
+   1828
+  ],
+  "compact": [
+   914,
+   914
+  ]
+ },
+ "asia": {
+  "name": "Asia",
+  "normal": [
+   2000,
+   1200
+  ],
+  "compact": [
+   1000,
+   600
+  ]
+ },
+ "australia": {
+  "name": "Australia",
+  "normal": [
+   2000,
+   1500
+  ],
+  "compact": [
+   1000,
+   750
+  ]
+ },
+ "babelmandebstrait": {
+  "name": "Bab el-Mandeb Strait",
+  "normal": [
+   1500,
+   1500
+  ],
+  "compact": [
+   750,
+   750
+  ]
+ },
+ "baikal": {
+  "name": "Baikal",
+  "normal": [
+   2500,
+   1564
+  ],
+  "compact": [
+   1250,
+   782
+  ]
+ },
+ "baikalnukewars": {
+  "name": "Baikal Nuke Wars",
+  "normal": [
+   2500,
+   1564
+  ],
+  "compact": [
+   1250,
+   782
+  ]
+ },
+ "bajacalifornia": {
+  "name": "Baja California",
+  "normal": [
+   1800,
+   2120
+  ],
+  "compact": [
+   900,
+   1060
+  ]
+ },
+ "balkans": {
+  "name": "Balkans",
+  "normal": [
+   2048,
+   2048
+  ],
+  "compact": [
+   1024,
+   1024
+  ]
+ },
+ "balkhash": {
+  "name": "Balkhash",
+  "normal": [
+   3300,
+   1500
+  ],
+  "compact": [
+   1650,
+   750
+  ]
+ },
+ "baltics": {
+  "name": "Baltics",
+  "normal": [
+   1364,
+   1324
+  ],
+  "compact": [
+   682,
+   662
+  ]
+ },
+ "benelux": {
+  "name": "Benelux",
+  "normal": [
+   1604,
+   1444
+  ],
+  "compact": [
+   802,
+   722
+  ]
+ },
+ "beringsea": {
+  "name": "Bering Sea",
+  "normal": [
+   2500,
+   1600
+  ],
+  "compact": [
+   1250,
+   800
+  ]
+ },
+ "beringstrait": {
+  "name": "Bering Strait",
+  "normal": [
+   1500,
+   916
+  ],
+  "compact": [
+   750,
+   458
+  ]
+ },
+ "betweentwoseas": {
+  "name": "Between Two Seas",
+  "normal": [
+   1776,
+   1060
+  ],
+  "compact": [
+   888,
+   530
+  ]
+ },
+ "blacksea": {
+  "name": "Black Sea",
+  "normal": [
+   1500,
+   1100
+  ],
+  "compact": [
+   750,
+   550
+  ]
+ },
+ "bosphorusstraits": {
+  "name": "Bosphorus Straits",
+  "normal": [
+   1000,
+   612
+  ],
+  "compact": [
+   500,
+   306
+  ]
+ },
+ "brainrot": {
+  "name": "Brain Rot",
+  "normal": [
+   2996,
+   2352
+  ],
+  "compact": [
+   1498,
+   1176
+  ]
+ },
+ "branchingpaths": {
+  "name": "Branching Paths",
+  "normal": [
+   2480,
+   2148
+  ],
+  "compact": [
+   1240,
+   1074
+  ]
+ },
+ "britannia": {
+  "name": "Britannia",
+  "normal": [
+   1600,
+   2088
+  ],
+  "compact": [
+   800,
+   1044
+  ]
+ },
+ "britanniaclassic": {
+  "name": "Britannia Classic",
+  "normal": [
+   2000,
+   1396
+  ],
+  "compact": [
+   1000,
+   698
+  ]
+ },
+ "canaryislands": {
+  "name": "Canary Islands",
+  "normal": [
+   4000,
+   1400
+  ],
+  "compact": [
+   2000,
+   700
+  ]
+ },
+ "capecod": {
+  "name": "Cape Cod",
+  "normal": [
+   1500,
+   1240
+  ],
+  "compact": [
+   750,
+   620
+  ]
+ },
+ "capeofgoodhope": {
+  "name": "Cape Of Good Hope",
+  "normal": [
+   1928,
+   1928
+  ],
+  "compact": [
+   964,
+   964
+  ]
+ },
+ "caribbean": {
+  "name": "Caribbean",
+  "normal": [
+   3200,
+   1808
+  ],
+  "compact": [
+   1600,
+   904
+  ]
+ },
+ "caspiansea": {
+  "name": "Caspian Sea",
+  "normal": [
+   1008,
+   1728
+  ],
+  "compact": [
+   504,
+   864
+  ]
+ },
+ "caucasus": {
+  "name": "Caucasus",
+  "normal": [
+   1248,
+   1000
+  ],
+  "compact": [
+   624,
+   500
+  ]
+ },
+ "centralamerica": {
+  "name": "Central America",
+  "normal": [
+   2500,
+   1956
+  ],
+  "compact": [
+   1250,
+   978
+  ]
+ },
+ "channelislands": {
+  "name": "Channel Islands",
+  "normal": [
+   4744,
+   1844
+  ],
+  "compact": [
+   2372,
+   922
+  ]
+ },
+ "china": {
+  "name": "China",
+  "normal": [
+   2248,
+   2024
+  ],
+  "compact": [
+   1124,
+   1012
+  ]
+ },
+ "choppingblock": {
+  "name": "Chopping Block",
+  "normal": [
+   1616,
+   1616
+  ],
+  "compact": [
+   808,
+   808
+  ]
+ },
+ "clearwaterlakes": {
+  "name": "Clearwater Lakes",
+  "normal": [
+   1872,
+   1656
+  ],
+  "compact": [
+   936,
+   828
+  ]
+ },
+ "conakry": {
+  "name": "Conakry",
+  "normal": [
+   2456,
+   1000
+  ],
+  "compact": [
+   1228,
+   500
+  ]
+ },
+ "crimea": {
+  "name": "Crimea",
+  "normal": [
+   2040,
+   1316
+  ],
+  "compact": [
+   1020,
+   658
+  ]
+ },
+ "danishstraits": {
+  "name": "Danish Straits",
+  "normal": [
+   872,
+   1224
+  ],
+  "compact": [
+   436,
+   612
+  ]
+ },
+ "deglaciatedantarctica": {
+  "name": "Deglaciated Antarctica",
+  "normal": [
+   2300,
+   1840
+  ],
+  "compact": [
+   1150,
+   920
+  ]
+ },
+ "didier": {
+  "name": "Didier",
+  "normal": [
+   1500,
+   1348
+  ],
+  "compact": [
+   750,
+   674
+  ]
+ },
+ "didierfrance": {
+  "name": "Didier France",
+  "normal": [
+   2100,
+   2248
+  ],
+  "compact": [
+   1050,
+   1124
+  ]
+ },
+ "dyslexdria": {
+  "name": "Dyslexdria",
+  "normal": [
+   3308,
+   1440
+  ],
+  "compact": [
+   1654,
+   720
+  ]
+ },
+ "eastasia": {
+  "name": "East Asia",
+  "normal": [
+   1560,
+   1644
+  ],
+  "compact": [
+   780,
+   822
+  ]
+ },
+ "europe": {
+  "name": "Europe",
+  "normal": [
+   2904,
+   1672
+  ],
+  "compact": [
+   1452,
+   836
+  ]
+ },
+ "europeclassic": {
+  "name": "Europe Classic",
+  "normal": [
+   2000,
+   1000
+  ],
+  "compact": [
+   1000,
+   500
+  ]
+ },
+ "falklandislands": {
+  "name": "Falkland Islands",
+  "normal": [
+   2100,
+   1400
+  ],
+  "compact": [
+   1050,
+   700
+  ]
+ },
+ "faroeislands": {
+  "name": "Faroe Islands",
+  "normal": [
+   1600,
+   2000
+  ],
+  "compact": [
+   800,
+   1000
+  ]
+ },
+ "fingerlakes": {
+  "name": "Finger Lakes",
+  "normal": [
+   1468,
+   1376
+  ],
+  "compact": [
+   734,
+   688
+  ]
+ },
+ "fourislands": {
+  "name": "Four Islands",
+  "normal": [
+   1500,
+   1500
+  ],
+  "compact": [
+   750,
+   750
+  ]
+ },
+ "france": {
+  "name": "France",
+  "normal": [
+   2424,
+   2424
+  ],
+  "compact": [
+   1212,
+   1212
+  ]
+ },
+ "gatewaytotheatlantic": {
+  "name": "Gateway to the Atlantic",
+  "normal": [
+   2216,
+   1968
+  ],
+  "compact": [
+   1108,
+   984
+  ]
+ },
+ "germany": {
+  "name": "Germany",
+  "normal": [
+   1548,
+   1516
+  ],
+  "compact": [
+   774,
+   758
+  ]
+ },
+ "giantworldmap": {
+  "name": "Giant World Map",
+  "normal": [
+   4108,
+   1948
+  ],
+  "compact": [
+   2054,
+   974
+  ]
+ },
+ "greatlakes": {
+  "name": "Great Lakes",
+  "normal": [
+   2000,
+   1300
+  ],
+  "compact": [
+   1000,
+   650
+  ]
+ },
+ "gulfofguinea": {
+  "name": "Gulf Of Guinea",
+  "normal": [
+   2500,
+   2200
+  ],
+  "compact": [
+   1250,
+   1100
+  ]
+ },
+ "gulfofmexico": {
+  "name": "Gulf Of Mexico",
+  "normal": [
+   3000,
+   1928
+  ],
+  "compact": [
+   1500,
+   964
+  ]
+ },
+ "gulfofstlawrence": {
+  "name": "Gulf of St. Lawrence",
+  "normal": [
+   1620,
+   1348
+  ],
+  "compact": [
+   810,
+   674
+  ]
+ },
+ "halkidiki": {
+  "name": "Halkidiki",
+  "normal": [
+   2200,
+   1760
+  ],
+  "compact": [
+   1100,
+   880
+  ]
+ },
+ "hawaii": {
+  "name": "Hawaii",
+  "normal": [
+   3200,
+   2076
+  ],
+  "compact": [
+   1600,
+   1038
+  ]
+ },
+ "hecatestrait": {
+  "name": "Hecate Strait",
+  "normal": [
+   2248,
+   1932
+  ],
+  "compact": [
+   1124,
+   966
+  ]
+ },
+ "hongkong": {
+  "name": "Hong Kong",
+  "normal": [
+   2780,
+   1996
+  ],
+  "compact": [
+   1390,
+   998
+  ]
+ },
+ "hornofafrica": {
+  "name": "Horn Of Africa",
+  "normal": [
+   2000,
+   1864
+  ],
+  "compact": [
+   1000,
+   932
+  ]
+ },
+ "iceland": {
+  "name": "Iceland",
+  "normal": [
+   2000,
+   1500
+  ],
+  "compact": [
+   1000,
+   750
+  ]
+ },
+ "indiansubcontinent": {
+  "name": "Indian Subcontinent",
+  "normal": [
+   2000,
+   2220
+  ],
+  "compact": [
+   1000,
+   1110
+  ]
+ },
+ "irishsea": {
+  "name": "Irish Sea",
+  "normal": [
+   1400,
+   1500
+  ],
+  "compact": [
+   700,
+   750
+  ]
+ },
+ "italia": {
+  "name": "Italia",
+  "normal": [
+   1360,
+   1272
+  ],
+  "compact": [
+   680,
+   636
+  ]
+ },
+ "japan": {
+  "name": "Japan",
+  "normal": [
+   2500,
+   2500
+  ],
+  "compact": [
+   1250,
+   1250
+  ]
+ },
+ "juandefucastrait": {
+  "name": "Juan De Fuca Strait",
+  "normal": [
+   3000,
+   1100
+  ],
+  "compact": [
+   1500,
+   550
+  ]
+ },
+ "korea": {
+  "name": "Korea",
+  "normal": [
+   1632,
+   3284
+  ],
+  "compact": [
+   816,
+   1642
+  ]
+ },
+ "labyrinth": {
+  "name": "Labyrinth",
+  "normal": [
+   1360,
+   1360
+  ],
+  "compact": [
+   680,
+   680
+  ]
+ },
+ "lasvegasstrip": {
+  "name": "Las Vegas Strip",
+  "normal": [
+   2036,
+   4428
+  ],
+  "compact": [
+   1018,
+   2214
+  ]
+ },
+ "lemnos": {
+  "name": "Lemnos",
+  "normal": [
+   1748,
+   1420
+  ],
+  "compact": [
+   874,
+   710
+  ]
+ },
+ "levant": {
+  "name": "Levant",
+  "normal": [
+   2000,
+   2000
+  ],
+  "compact": [
+   1000,
+   1000
+  ]
+ },
+ "lisbon": {
+  "name": "Lisbon",
+  "normal": [
+   1600,
+   1600
+  ],
+  "compact": [
+   800,
+   800
+  ]
+ },
+ "losangeles": {
+  "name": "Los Angeles",
+  "normal": [
+   2052,
+   2268
+  ],
+  "compact": [
+   1026,
+   1134
+  ]
+ },
+ "luna": {
+  "name": "Luna",
+  "normal": [
+   1308,
+   3508
+  ],
+  "compact": [
+   654,
+   1754
+  ]
+ },
+ "madagascar": {
+  "name": "Madagascar",
+  "normal": [
+   3500,
+   2332
+  ],
+  "compact": [
+   1750,
+   1166
+  ]
+ },
+ "manicouagan": {
+  "name": "Manicouagan",
+  "normal": [
+   1600,
+   1600
+  ],
+  "compact": [
+   800,
+   800
+  ]
+ },
+ "marenostrum": {
+  "name": "Mare Nostrum",
+  "normal": [
+   2848,
+   1448
+  ],
+  "compact": [
+   1424,
+   724
+  ]
+ },
+ "mars": {
+  "name": "Mars",
+  "normal": [
+   2000,
+   1000
+  ],
+  "compact": [
+   1000,
+   500
+  ]
+ },
+ "mena": {
+  "name": "Mena",
+  "normal": [
+   2200,
+   964
+  ],
+  "compact": [
+   1100,
+   482
+  ]
+ },
+ "middleeast": {
+  "name": "Middle East",
+  "normal": [
+   2200,
+   2060
+  ],
+  "compact": [
+   1100,
+   1030
+  ]
+ },
+ "milkyway": {
+  "name": "MilkyWay",
+  "normal": [
+   1748,
+   1748
+  ],
+  "compact": [
+   874,
+   874
+  ]
+ },
+ "mississippiriver": {
+  "name": "Mississippi River",
+  "normal": [
+   400,
+   4200
+  ],
+  "compact": [
+   200,
+   2100
+  ]
+ },
+ "montreal": {
+  "name": "Montreal",
+  "normal": [
+   1528,
+   1500
+  ],
+  "compact": [
+   764,
+   750
+  ]
+ },
+ "morethanluck": {
+  "name": "More Than Luck",
+  "normal": [
+   1348,
+   1344
+  ],
+  "compact": [
+   674,
+   672
+  ]
+ },
+ "newyorkcity": {
+  "name": "New York City",
+  "normal": [
+   1500,
+   1900
+  ],
+  "compact": [
+   750,
+   950
+  ]
+ },
+ "newzealand": {
+  "name": "New Zealand",
+  "normal": [
+   1888,
+   3448
+  ],
+  "compact": [
+   944,
+   1724
+  ]
+ },
+ "niledelta": {
+  "name": "Nile Delta",
+  "normal": [
+   1556,
+   1280
+  ],
+  "compact": [
+   778,
+   640
+  ]
+ },
+ "northamerica": {
+  "name": "North America",
+  "normal": [
+   2800,
+   1448
+  ],
+  "compact": [
+   1400,
+   724
+  ]
+ },
+ "northwestpassage": {
+  "name": "Northwest Passage",
+  "normal": [
+   2500,
+   1664
+  ],
+  "compact": [
+   1250,
+   832
+  ]
+ },
+ "oceania": {
+  "name": "Oceania",
+  "normal": [
+   1664,
+   1000
+  ],
+  "compact": [
+   832,
+   500
+  ]
+ },
+ "ommatrypta": {
+  "name": "Ommatrypta",
+  "normal": [
+   2192,
+   1284
+  ],
+  "compact": [
+   1096,
+   642
+  ]
+ },
+ "onion": {
+  "name": "Onion",
+  "normal": [
+   512,
+   512
+  ],
+  "compact": [
+   256,
+   256
+  ]
+ },
+ "pangaea": {
+  "name": "Pangaea",
+  "normal": [
+   1000,
+   1000
+  ],
+  "compact": [
+   500,
+   500
+  ]
+ },
+ "passage": {
+  "name": "Passage",
+  "normal": [
+   6000,
+   400
+  ],
+  "compact": [
+   3000,
+   200
+  ]
+ },
+ "pluto": {
+  "name": "Pluto",
+  "normal": [
+   2100,
+   1300
+  ],
+  "compact": [
+   1050,
+   650
+  ]
+ },
+ "pulicatlake": {
+  "name": "Pulicat Lake",
+  "normal": [
+   1176,
+   1796
+  ],
+  "compact": [
+   588,
+   898
+  ]
+ },
+ "qingchina": {
+  "name": "Qing China",
+  "normal": [
+   2248,
+   2024
+  ],
+  "compact": [
+   1124,
+   1012
+  ]
+ },
+ "riodejaneiro": {
+  "name": "Rio de Janeiro",
+  "normal": [
+   1488,
+   1680
+  ],
+  "compact": [
+   744,
+   840
+  ]
+ },
+ "russia": {
+  "name": "Russia",
+  "normal": [
+   3200,
+   1688
+  ],
+  "compact": [
+   1600,
+   844
+  ]
+ },
+ "sanfrancisco": {
+  "name": "San Francisco",
+  "normal": [
+   2000,
+   1700
+  ],
+  "compact": [
+   1000,
+   850
+  ]
+ },
+ "scandinavia": {
+  "name": "Scandinavia",
+  "normal": [
+   2004,
+   2240
+  ],
+  "compact": [
+   1002,
+   1120
+  ]
+ },
+ "sierpinski": {
+  "name": "Sierpinski",
+  "normal": [
+   1400,
+   1400
+  ],
+  "compact": [
+   700,
+   700
+  ]
+ },
+ "sol": {
+  "name": "Sol",
+  "normal": [
+   4432,
+   2528
+  ],
+  "compact": [
+   2216,
+   1264
+  ]
+ },
+ "southamerica": {
+  "name": "South America",
+  "normal": [
+   1744,
+   2376
+  ],
+  "compact": [
+   872,
+   1188
+  ]
+ },
+ "southeastasia": {
+  "name": "SoutheastAsia",
+  "normal": [
+   2812,
+   1672
+  ],
+  "compact": [
+   1406,
+   836
+  ]
+ },
+ "straitofgibraltar": {
+  "name": "Strait of Gibraltar",
+  "normal": [
+   2900,
+   1476
+  ],
+  "compact": [
+   1450,
+   738
+  ]
+ },
+ "straitofhormuz": {
+  "name": "Strait of Hormuz",
+  "normal": [
+   1800,
+   1200
+  ],
+  "compact": [
+   900,
+   600
+  ]
+ },
+ "straitofmalacca": {
+  "name": "Strait Of Malacca",
+  "normal": [
+   1832,
+   1644
+  ],
+  "compact": [
+   916,
+   822
+  ]
+ },
+ "surrounded": {
+  "name": "Surrounded",
+  "normal": [
+   1976,
+   1976
+  ],
+  "compact": [
+   988,
+   988
+  ]
+ },
+ "svalmel": {
+  "name": "Svalmel",
+  "normal": [
+   1700,
+   1580
+  ],
+  "compact": [
+   850,
+   790
+  ]
+ },
+ "taiwanstrait": {
+  "name": "Taiwan Strait",
+  "normal": [
+   1600,
+   1600
+  ],
+  "compact": [
+   800,
+   800
+  ]
+ },
+ "thebox": {
+  "name": "The Box",
+  "normal": [
+   2048,
+   2048
+  ],
+  "compact": [
+   1024,
+   1024
+  ]
+ },
+ "tierradelfuego": {
+  "name": "Tierra Del Fuego",
+  "normal": [
+   2504,
+   1664
+  ],
+  "compact": [
+   1252,
+   832
+  ]
+ },
+ "titan": {
+  "name": "Titan",
+  "normal": [
+   1232,
+   2160
+  ],
+  "compact": [
+   616,
+   1080
+  ]
+ },
+ "tourney1": {
+  "name": "Tourney 2 Teams",
+  "normal": [
+   1500,
+   1500
+  ],
+  "compact": [
+   750,
+   750
+  ]
+ },
+ "tourney2": {
+  "name": "Tourney 3 Teams",
+  "normal": [
+   1500,
+   1500
+  ],
+  "compact": [
+   750,
+   750
+  ]
+ },
+ "tourney3": {
+  "name": "Tourney 4 Teams",
+  "normal": [
+   1500,
+   1500
+  ],
+  "compact": [
+   750,
+   750
+  ]
+ },
+ "tourney4": {
+  "name": "Tourney 8 Teams",
+  "normal": [
+   1500,
+   1500
+  ],
+  "compact": [
+   750,
+   750
+  ]
+ },
+ "tradersdream": {
+  "name": "Traders Dream",
+  "normal": [
+   2200,
+   1920
+  ],
+  "compact": [
+   1100,
+   960
+  ]
+ },
+ "tutorial": {
+  "name": "Tutorial",
+  "normal": [
+   224,
+   168
+  ],
+  "compact": [
+   112,
+   84
+  ]
+ },
+ "twolakes": {
+  "name": "Two Lakes",
+  "normal": [
+   2100,
+   1840
+  ],
+  "compact": [
+   1050,
+   920
+  ]
+ },
+ "unitedstates": {
+  "name": "United States",
+  "normal": [
+   2800,
+   1548
+  ],
+  "compact": [
+   1400,
+   774
+  ]
+ },
+ "vancouverisland": {
+  "name": "Vancouver Island",
+  "normal": [
+   2600,
+   1980
+  ],
+  "compact": [
+   1300,
+   990
+  ]
+ },
+ "venice": {
+  "name": "Venice",
+  "normal": [
+   2000,
+   1500
+  ],
+  "compact": [
+   1000,
+   750
+  ]
+ },
+ "vietnam": {
+  "name": "Vietnam",
+  "normal": [
+   1976,
+   3560
+  ],
+  "compact": [
+   988,
+   1780
+  ]
+ },
+ "warshipwarship": {
+  "name": "Warship Warship",
+  "normal": [
+   3000,
+   1396
+  ],
+  "compact": [
+   1500,
+   698
+  ]
+ },
+ "world": {
+  "name": "World",
+  "normal": [
+   2000,
+   1000
+  ],
+  "compact": [
+   1000,
+   500
+  ]
+ },
+ "worldinverted": {
+  "name": "World Inverted",
+  "normal": [
+   2500,
+   1248
+  ],
+  "compact": [
+   1250,
+   624
+  ]
+ },
+ "yangtzeriver": {
+  "name": "Yangtze River",
+  "normal": [
+   3840,
+   2552
+  ],
+  "compact": [
+   1920,
+   1276
+  ]
+ },
+ "yellowsea": {
+  "name": "Yellow Sea",
+  "normal": [
+   1500,
+   1152
+  ],
+  "compact": [
+   750,
+   576
+  ]
+ },
+ "yenisei": {
+  "name": "Yenisei",
+  "normal": [
+   1200,
+   1500
+  ],
+  "compact": [
+   600,
+   750
+  ]
+ }
+}
