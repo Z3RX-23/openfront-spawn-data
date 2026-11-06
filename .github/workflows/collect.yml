@@ -2,7 +2,7 @@ name: collect-spawns
 
 on:
   schedule:
-    - cron: "17 */6 * * *"   # de 6 em 6 horas (hora UTC)
+    - cron: "17 */3 * * *"   # de 3 em 3 horas (hora UTC)
   workflow_dispatch:           # permite correr manualmente no separador Actions
 
 permissions:

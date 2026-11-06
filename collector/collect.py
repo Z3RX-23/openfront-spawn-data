@@ -60,7 +60,11 @@ def http_get_json(url, delay, retries=6):
                 continue
             if e.code == 404:
                 return None, None
-            raise
+            try:
+                detail = e.read().decode("utf-8", "replace")[:300]
+            except Exception:
+                detail = ""
+            raise RuntimeError(f"HTTP {e.code} em {url}: {detail}") from e
         except (urllib.error.URLError, TimeoutError) as e:
             print(f"  erro de rede: {e}; a esperar {wait * 2:.0f}s", file=sys.stderr)
             time.sleep(wait * 2)
@@ -221,21 +225,39 @@ def fmt_iso(dt):
     return dt.astimezone(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
 
 
-def list_window(api, start, end, api_mode, delay):
-    """Metadados de todos os jogos publicos iniciados em [start, end] (paginado, 1000 por pedido)."""
+PAGE = 1000
+MAX_WINDOW_ROWS = 10000  # a API recusa offset + limit > 10000
+
+
+def list_window(api, start, end, api_mode, delay, _depth=0):
+    """Metadados dos jogos publicos iniciados em [start, end]. Se a janela tiver mais de
+    MAX_WINDOW_ROWS jogos (limite da API), parte-a ao meio e junta, sem duplicados."""
     games, offset = [], 0
     while True:
+        if offset + PAGE > MAX_WINDOW_ROWS:  # janela cheia: dividir
+            if _depth > 12 or end - start < timedelta(seconds=2):
+                print("  aviso: janela demasiado densa, a truncar", file=sys.stderr)
+                break
+            mid = start + (end - start) / 2
+            a = list_window(api, start, mid, api_mode, delay, _depth + 1)
+            b = list_window(api, mid, end, api_mode, delay, _depth + 1)
+            seen, out = set(), []
+            for g in a + b:
+                if g.get("game") not in seen:
+                    seen.add(g.get("game"))
+                    out.append(g)
+            return out
         q = urllib.parse.urlencode({
             "start": fmt_iso(start), "end": fmt_iso(end),
-            "type": "Public", "mode": api_mode, "limit": 1000, "offset": offset,
+            "type": "Public", "mode": api_mode, "limit": PAGE, "offset": offset,
         })
         page, _ = http_get_json(f"{api}/public/games?{q}", delay)
         if not page:
             break
         games.extend(page)
-        if len(page) < 1000:
+        if len(page) < PAGE:
             break
-        offset += 1000
+        offset += PAGE
     return games
 
 
@@ -298,7 +320,7 @@ def run_incremental(args, dims):
     horizon = now - timedelta(minutes=args.settle_minutes)
     start = parse_iso(state["last_start"]) if state.get("last_start") else now - timedelta(days=args.initial_days)
     done = set(state.get("boundary_ids", []))
-    end = min(start + timedelta(days=2) - timedelta(seconds=1), horizon)
+    end = min(start + timedelta(hours=args.window_hours), horizon)
     if end <= start:
         print("Nada para processar (janela vazia).")
         return
@@ -307,7 +329,10 @@ def run_incremental(args, dims):
     games = []
     for m in api_modes:
         games.extend(list_window(args.api, start, end, m, args.delay))
-    games = [g for g in games if g.get("game") and g["game"] not in done]
+    total = len(games)
+    games = [g for g in games if g.get("game") and g["game"] not in done
+             and (g.get("numPlayers") or 0) >= args.min_players]
+    print(f"{total} jogos na janela, {len(games)} com >= {args.min_players} jogadores")
     games.sort(key=lambda g: (g.get("start", ""), g["game"]))
     print(f"Janela {fmt_iso(start)} .. {fmt_iso(end)}: {len(games)} jogos por processar")
 
@@ -386,6 +411,9 @@ def main():
     ap.add_argument("--out-dir", default=os.path.join(HERE, "..", "docs", "data"))
     ap.add_argument("--state", default=os.path.join(HERE, "..", "state.json"))
     ap.add_argument("--settle-minutes", type=int, default=90, help="so processa jogos iniciados ha mais de N min")
+    ap.add_argument("--window-hours", type=float, default=6, help="tamanho maximo da janela por corrida")
+    ap.add_argument("--min-players", type=int, default=8,
+                    help="ignora jogos com menos jogadores (ruido e poupa pedidos; 0 = todos)")
     ap.add_argument("--initial-days", type=float, default=2, help="na 1a corrida, quantos dias para tras")
     args = ap.parse_args()
 
