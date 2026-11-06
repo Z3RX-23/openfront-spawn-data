@@ -25,8 +25,8 @@ jobs:
 
       - name: Recolher jogos novos
         run: >
-          python collector/collect.py --incremental --mode both
-          --max-games 2000 --delay 2
+          python -u collector/collect.py --incremental --mode both
+          --max-games 4000 --delay 1
           --out-dir docs/data --state state.json
 
       - name: Guardar dados
